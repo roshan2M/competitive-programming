@@ -31,9 +31,9 @@ do
     inputFile=test/$1/${test}.in
     if [ -r $inputFile ]
     then
-    	python $runFile < $inputFile > $newOutputFile
+        python $runFile < $inputFile > $newOutputFile
     else
-	    python $runFile > $newOutputFile
+        python $runFile > $newOutputFile
     fi
     diff $newOutputFile $givenOutputFile > /dev/null
 
