@@ -1,10 +1,9 @@
 class Node:
-    def __init__(self, id, parent):
+    def __init__(self, id):
         self.id = id
         self.outputs = {}
         self.nodes = {}
         self.fail = None
-        self.parent = parent
 
     def addWord(self, s, index, value):
         """
@@ -19,7 +18,7 @@ class Node:
             return
         first = s[0]
         if first not in self.nodes:
-            self.nodes[first] = Node(first, self)
+            self.nodes[first] = Node(first)
         self.nodes[first].addWord(s[1:], index, value)
 
     def getWordValue(self, s, start, end):
@@ -31,7 +30,7 @@ class Node:
         totalValue = 0
         currentNode = self
         for c in s:
-            if c not in currentNode.nodes:
+            while c not in currentNode.nodes and currentNode.fail:
                 currentNode = currentNode.fail
             if c in currentNode.nodes:
                 currentNode = currentNode.nodes[c]
@@ -45,20 +44,18 @@ class Node:
         Outputs a readable format of the node.
         """
         print(prefix + 'Id: ' + (self.id if self.id else 'None'))
-        print(prefix + 'Parent: ' + (self.parent.id if self.parent and self.parent.id else 'None'))
-        print(prefix + 'Fail: ' + (self.fail.id if self.fail.id else 'None'))
+        print(prefix + 'Fail: ' + (self.fail.id if self.fail and self.fail.id else 'None'))
         print(prefix + 'Outputs: ' + str(self.outputs))
         for key, node in self.nodes.iteritems():
             node.prettyPrint(prefix + '\t')
 
 def buildDnaTrie(genes, health):
-    startNode = Node(None, None)
+    startNode = Node(None)
     for i in range(len(genes)):
         startNode.addWord(genes[i], i, health[i])
     return startNode
 
 def buildDnaFails(start):
-    start.fail = start
     queue = []
     for node in start.nodes.values():
         node.fail = start
@@ -74,10 +71,10 @@ def buildDnaFails(start):
                         cNode.fail = node
                         cNode.outputs = mergeTwoDicts(cNode.outputs, node.outputs)
                 if not cNode.fail:
-                    if not fail.parent:
+                    if not fail.fail:
                         cNode.fail = start
                     else:
-                        fail = fail.parent
+                        fail = fail.fail
             queue.append(cNode)
 
 def mergeTwoDicts(x, y):
