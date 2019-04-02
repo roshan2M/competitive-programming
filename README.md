@@ -13,5 +13,6 @@ If any **`Python`** solutions contain tests under the `test` directory, run the 
 * `CommonChild`: https://www.hackerrank.com/challenges/common-child/problem
 * `DeterminingDNAHealth`: https://www.hackerrank.com/challenges/determining-dna-health/problem (*WIP*)
 * `GridSearch`: https://www.hackerrank.com/challenges/the-grid-search/problem
-* `MatrixLayerRotation`: https://www.hackerrank.com/challenges/matrix-rotation-algo/problem
 * `JourneyToMoon`: https://www.hackerrank.com/challenges/journey-to-the-moon/problem
+* `MatrixLayerRotation`: https://www.hackerrank.com/challenges/matrix-rotation-algo/problem
+* `QueensAttackII`: https://www.hackerrank.com/challenges/queens-attack-2/problem
