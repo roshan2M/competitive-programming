@@ -6,7 +6,7 @@ Here are some **`HackerRank`** problem solutions.
 
 If any **`Python`** solutions contain tests under the `test` directory, run the associated tests using `scripts/runTest.sh <solution>`.
 
-# Overview
+## Overview
 
 * `AbsolutePermutation`: https://www.hackerrank.com/challenges/absolute-permutation/problem
 * `CommonChild`: https://www.hackerrank.com/challenges/common-child/problem
