@@ -28,6 +28,7 @@ do
         exit 1
     fi
 
+    echo "Start $test: $(date)"
     inputFile=test/$1/${test}.in
     if [ -r $inputFile ]
     then
@@ -36,6 +37,7 @@ do
         python $runFile > $newOutputFile
     fi
     diff $newOutputFile $givenOutputFile > /dev/null
+    echo "Finish $test: $(date)"
 
     if [ $? -ne 0 ]
     then
