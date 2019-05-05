@@ -4,11 +4,11 @@ Here are some **`HackerRank`** problem solutions.
 
 ## Testing
 
-If any **`Python`** solutions contain tests under the `test` directory, run the associated tests using `scripts/runTest.sh <solution>`.
+For testing `HackerRank` problems inside `./hackerrank`, if any **`Python`** solutions contain tests under the `test` directory, run the associated tests using `scripts/runTest.sh <solution>`.
 
 ## Overview
 
-# HackerRank Problems
+### HackerRank Problems
 
 * `AbsolutePermutation`: https://www.hackerrank.com/challenges/absolute-permutation/problem
 * `BalancedBrackets`: https://www.hackerrank.com/challenges/ctci-balanced-brackets/problem
@@ -19,7 +19,7 @@ If any **`Python`** solutions contain tests under the `test` directory, run the 
 * `MatrixLayerRotation`: https://www.hackerrank.com/challenges/matrix-rotation-algo/problem
 * `QueensAttackII`: https://www.hackerrank.com/challenges/queens-attack-2/problem
 
-# GeeksForGeeks Problems
+### GeeksForGeeks Problems
 
 * `CountBstNodesInRange`: https://practice.geeksforgeeks.org/problems/count-bst-nodes-that-lie-in-a-given-range/1
 * `OnceElement`: https://practice.geeksforgeeks.org/problems/find-the-element-that-appears-once-in-sorted-array/0
