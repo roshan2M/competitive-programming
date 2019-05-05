@@ -1,10 +1,8 @@
-# HackerRank Solutions
-
-Here are some **`HackerRank`** problem solutions.
+# Competitive Programming
 
 ## Testing
 
-For testing `HackerRank` problems inside `./hackerrank`, if any **`Python`** solutions contain tests under the `test` directory, run the associated tests using `scripts/runTest.sh <solution>`.
+For testing `HackerRank` problems inside `./hackerrank`, if any **`Python`** solutions contain tests under the `test` directory, run the associated tests using `scripts/runTest.sh <problem>`.
 
 ## Overview
 
