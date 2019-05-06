@@ -21,4 +21,5 @@ For testing `HackerRank` problems inside `./hackerrank`, if any **`Python`** sol
 
 * `CountBstNodesInRange`: https://practice.geeksforgeeks.org/problems/count-bst-nodes-that-lie-in-a-given-range/1
 * `OnceElement`: https://practice.geeksforgeeks.org/problems/find-the-element-that-appears-once-in-sorted-array/0
+* `StacksForQueue`: https://practice.geeksforgeeks.org/problems/queue-using-two-stacks/1
 * `TrieInsertion`: https://practice.geeksforgeeks.org/problems/trie-insert-and-search/0
