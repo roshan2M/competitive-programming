@@ -10,6 +10,7 @@ For testing `HackerRank` problems inside `./hackerrank`, if any **`Python`** sol
 
 * `AbsolutePermutation`: https://www.hackerrank.com/challenges/absolute-permutation/problem
 * `BalancedBrackets`: https://www.hackerrank.com/challenges/ctci-balanced-brackets/problem
+* `BotClean`: https://www.hackerrank.com/challenges/botclean
 * `CommonChild`: https://www.hackerrank.com/challenges/common-child/problem
 * `DeterminingDNAHealth`: https://www.hackerrank.com/challenges/determining-dna-health/problem (*WIP*)
 * `GridSearch`: https://www.hackerrank.com/challenges/the-grid-search/problem
