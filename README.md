@@ -8,6 +8,7 @@ For testing `HackerRank` problems inside `./hackerrank`, if any **`Python`** sol
 
 ### HackerRank Problems
 
+* `Abbreviation`: https://www.hackerrank.com/challenges/abbr/problem
 * `AbsolutePermutation`: https://www.hackerrank.com/challenges/absolute-permutation/problem
 * `BalancedBrackets`: https://www.hackerrank.com/challenges/ctci-balanced-brackets/problem
 * `BotClean`: https://www.hackerrank.com/challenges/botclean
