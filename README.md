@@ -15,6 +15,7 @@ For testing `HackerRank` problems inside `./hackerrank`, if any **`Python`** sol
 * `CommonChild`: https://www.hackerrank.com/challenges/common-child/problem
 * `DeterminingDNAHealth`: https://www.hackerrank.com/challenges/determining-dna-health/problem (*WIP*)
 * `GridSearch`: https://www.hackerrank.com/challenges/the-grid-search/problem
+* `IceCreamParlour`: https://www.hackerrank.com/challenges/ctci-ice-cream-parlor/problem
 * `JourneyToMoon`: https://www.hackerrank.com/challenges/journey-to-the-moon/problem
 * `MatrixLayerRotation`: https://www.hackerrank.com/challenges/matrix-rotation-algo/problem
 * `QueensAttackII`: https://www.hackerrank.com/challenges/queens-attack-2/problem
