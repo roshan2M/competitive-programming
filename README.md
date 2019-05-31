@@ -28,3 +28,6 @@ For testing `HackerRank` problems inside `./hackerrank`, if any **`Python`** sol
 * `OnceElement`: https://practice.geeksforgeeks.org/problems/find-the-element-that-appears-once-in-sorted-array/0
 * `StacksForQueue`: https://practice.geeksforgeeks.org/problems/queue-using-two-stacks/1
 * `TrieInsertion`: https://practice.geeksforgeeks.org/problems/trie-insert-and-search/0
+
+## General
+Some general algorithms that are interesting to implement.
